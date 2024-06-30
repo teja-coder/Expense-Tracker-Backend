@@ -4,7 +4,6 @@ from typing import List, Optional
 from datetime import datetime
 
 from pymongo.server_api import ServerApi
-uri = "mongodb+srv://divyateja:Teja_2002@atlascluster.lpgz4rh.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
