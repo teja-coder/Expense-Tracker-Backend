@@ -2,6 +2,8 @@ from pymongo import MongoClient
 from models import Expense, Category
 from typing import List, Optional
 from datetime import datetime
+import os
+uri = os.environ.get('uri')
 
 from pymongo.server_api import ServerApi
 
